@@ -10,30 +10,41 @@
 
  /* Public */
  .card {
-    border: none;
-}
+     border: none;
+ }
 
-.card-img,
-.card-img-bottom {
-    border-bottom-right-radius: unset;
-    border-bottom-left-radius: unset;
-}
+ .card-img,
+ .card-img-bottom {
+     border-bottom-right-radius: unset;
+     border-bottom-left-radius: unset;
+ }
 
-.section {
-    text-align: center;
-    padding-top: 5em;
-    padding-bottom: 5em;
-}
+ .section {
+     text-align: center;
+     padding-bottom: 4em;
+ }
 
-.card-title {
-    font-weight: bold;
-}
+ .card-title {
+     font-weight: bold;
+ }
 
-.orangColor {
-    color: #ff7a2e;
-}
+ .orangColor {
+     color: #ff7a2e;
+ }
 
-/* Navbar */
+ .pl-8 {
+     padding-left: 8rem !important;
+ }
+
+ .pt-8 {
+     padding-top: 8rem !important;
+ }
+
+ /* Navbar */
+ .bg-light {
+     background-color: #fff !important;
+ }
+
  .nav-lined-item {
      border-right: 2px solid #ff7a2e;
      padding-right: 1em;
@@ -60,87 +71,129 @@
  /* Order Section */
  .custom-order-btn {
      float: right;
-    color: #fff !important;
-    background-color: black;
-    border-color: black;
+     color: #fff !important;
+     background-color: black;
+     border-color: black;
+     border-radius: 20px !important;
+     padding-right: 2rem !important;
+     padding-left: 2rem !important;
+     font-weight: bold;
+     box-shadow: 2px 2px 3x gray;
+ }
+
+ .custom-order-btn:hover {
+     color: #ff7a2e !important;
+     background-color: #fff;
+     border-color: #ff7a2e;
+ }
+
+ .custom-select {
+    color: darkgrey;
     border-radius: 20px !important;
-    padding-right: 2rem !important;
-    padding-left: 2rem !important;
-    font-weight: bold;
+    height: calc(1.5em + 1rem + 2px);
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    background-size: 15px !important;
+    background: #fff url("./../img/arrow.svg") no-repeat right .75rem center/8px 10px;
+    box-shadow: 5px 5px 5px gray;
+ }
+
+ .custom-input-group {
+     display: -ms-flexbox;
+     /* IE10 */
+     display: flex;
+     width: 100%;
+     margin-bottom: 15px;
+ }
+
+ .custom-input {
+    color: darkgrey;
+    border-radius: 20px !important;
+    box-shadow: 5px 5px 5px gray;
+ }
+
+ .form-control::placeholder {
+    color: darkgrey;
 }
 
-.custom-order-btn:hover {
-   color: #ff7a2e !important;
-   background-color: #fff;
-   border-color: #ff7a2e;
-}
+ .custom-input-icon {
+     padding: 10px;
+     min-width: 50px;
+     text-align: center;
+     position: absolute;
+     right: 5px;
+ }
 
  /* Upload-your-store-to-Deliver and Deliver-to-your-company Section */
  .long-section {
-    text-align: center;
-    padding-top: 5em;
-    padding-bottom: 9em;
-}
+     text-align: center;
+     padding-bottom: 12em;
+ }
 
  .custom-card-img-overlay {
-    position: absolute;
-    right: auto;
-    bottom: -9em;
-    left: auto;
-    padding: 1.25rem;
-    background-color: #fff;
-    background-color: rgba(249, 249, 249, 0.5);
-    align-self: center;
-    text-align: center;
-}
+     position: absolute;
+     right: auto;
+     bottom: -9em;
+     left: auto;
+     padding: 1.25rem;
+     background-color: #fff;
+     background-color: rgba(249, 249, 249, 0.5);
+     align-self: center;
+     text-align: center;
+ }
 
-.custom-card-img-overlay>h2 {
-    color: #ff7a2e;
-}
+ .custom-card-img-overlay>h2 {
+     color: #ff7a2e;
+ }
 
-.custom-card-btn {
-    color: #fff !important;
-    background-color: #ff7a2e;
-    border-color: #ff7a2e;
-    border-radius: 20px !important;
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
-}
+ .custom-card-btn {
+     color: #fff !important;
+     background-color: #ff7a2e;
+     border-color: #ff7a2e;
+     border-radius: 20px !important;
+     padding-right: 1rem !important;
+     padding-left: 1rem !important;
+     position: absolute;
+     bottom: -0.9em;
+     left: 50%;
+     margin-left: -50px;
+ } 
 
-.custom-card-btn:hover {
-   color: #ff7a2e !important;
-   background-color: #fff;
-   border-color: #ff7a2e;
-}
+ .custom-card-btn:hover {
+     color: #ff7a2e !important;
+     background-color: #fff;
+     border-color: #ff7a2e;
+ }
 
-  /* Download-the-food-you-love Section */
+ /* Download-the-food-you-love Section */
  .imgBtn {
      width: 10em;
  }
 
  /* Footer */
  footer {
-    background-color: #434949;
-    border-top: 4px solid #ff7a2e;
-}
+     background-color: #434949;
+     border-top: 4px solid #ff7a2e;
+     padding-top: 4em;
+ }
 
-.text-left {
-    text-align: left;
-    color: #fff;
-}
+ .text-left {
+     text-align: left;
+     color: #fff;
+ }
 
-.list-unstyled>li>a {
-    color: #fff !important;
-}
+ .list-unstyled>li>a {
+     color: #fff !important;
+ }
 
-li::before {
-    content: ">";
-    font-size: small;
-    padding-right: 8px;
-    color: #fff;
-}
+ li::before {
+     content: ">";
+     font-size: small;
+     padding-right: 8px;
+     color: #fff;
+ }
 
-.imgBtnSmall {
-    width: 7em;
-}
-
+ .imgBtnSmall {
+     width: 7em;
+ }

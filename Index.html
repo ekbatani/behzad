@@ -73,32 +73,38 @@
     <!-- Navigation Bar section Finished -->
 
     <!-- Order section -->
-    <div class="card">
-        <img src="./asset/img/1.jpg" class="card-img" alt="order image">
-        <div class="card-img-overlay pt-5 pl-5">
-            <h3 class="card-title">What Would you <br> Order Today?</h3>
-            <form>
-                <div class="form-row">
-                    <div class="col-md-4 mb-3">
-                        <select class="form-control form-control-lg" placeholder="Delivery">
-                            <option selected>Delivery</option>
-                            <option>Option 1</option>
-                            <option>Option 2</option>
-                        </select>
+    <div class="section">
+        <div class="card">
+            <img src="./asset/img/1.jpg" class="card-img" alt="order image">
+            <div class="card-img-overlay pt-8 pl-8">
+                <h3 class="card-title">What Would you <br> Order Today?</h3>
+                <form>
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <select class="form-control form-control-lg custom-select" placeholder="Delivery">
+                                <option selected>Delivery</option>
+                                <option>Option 1</option>
+                                <option>Option 2</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-md-4 mb-3">
-                        <input type="text" class="form-control form-control-lg" placeholder="Delivery address">
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <div class="custom-input-group">
+                                <input type="text" class="form-control form-control-lg custom-input"
+                                    placeholder="Delivery address">
+                                <img class="custom-input-icon" src="./asset/img/mapIcon.svg">
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-md-4 mb-3">
-                        <button class="btn btn-primary custom-order-btn" type="submit">Search</button>
+                    <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                            <button class="btn btn-primary custom-order-btn" type="submit">Search</button>
+                        </div>
                     </div>
-                </div>
 
-            </form>
+                </form>
+            </div>
         </div>
     </div>
     <!-- Order section finished -->
