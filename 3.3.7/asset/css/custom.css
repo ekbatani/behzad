@@ -41,15 +41,20 @@
  }
 
  /* Navbar */
+ .bg-light {
+     background-color: #fff !important;
+ }
+
  .nav-lined-item {
      border-right: 2px solid #ff7a2e;
      padding-right: 1em;
  }
 
  .nav-btn-item {
-    border: 2px solid #ff7a2e;
-    border-radius: 20px !important;
-    padding: 1rem !important;
+     border: 2px solid #ff7a2e;
+     border-radius: 20px !important;
+     padding-right: 1rem !important;
+     padding-left: 1rem !important;
  }
 
  .nav-btn-item:hover {
