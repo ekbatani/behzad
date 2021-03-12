@@ -1,0 +1,148 @@
+<!-- Order section -->
+<div class="card order-section">
+    <img src="{{rootTheme}}/img/custom/1.jpg" class="card-img card-img-xs" alt="order image">
+    <div class="card-img-overlay container">
+        <h1 class="card-top-title">{{translate('HOME_WELCOME_TITLE')}} <br> {{translate('HOME_WELCOME_TITLE_2')}}</h1>
+        <h4>{{translate('HOME_WELCOME_SUBTITLE')}}</h4>
+        <!-- <h4>Tavo mėgstamiausi patiekalai ir prekės, vos keleto minučių bėgyje</h4> -->
+        <form>
+            <div class="form-row">
+                <div class="col-md-4 input-group-lg pl-0" data-ng-show="ADDONS.pickup" select-content>
+                    <div class="switch">
+                        <input type="radio" class="switch-input ng-untouched ng-valid ng-dirty ng-valid-parse"
+                            data-ng-model="search.type" name="view" value="1" id="Delivery">
+                        <label for="Delivery"
+                            class="switch-label switch-label-off ng-binding">{{translate('DELIVERY')}}</label>
+                        <input type="radio" class="switch-input ng-untouched ng-valid ng-dirty"
+                            data-ng-model="search.type" name="view" value="2" id="Pickup">
+                        <label for="Pickup"
+                            class="switch-label switch-label-on ng-binding">{{translate('MOBILE_FRONT_VISUALS_PICKUP')}}</label>
+                        <span class="switch-selection"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 col-xs-12 pl-0">
+                    <div class="form-group col-md-11 pl-0 pr-0" data-ng-show="SEARCH_BY_ADDRESS">
+                        <div class="input-group" style="width:100%; min-width: 300px;">
+                            <input type="text" class="form-control ng-pristine ng-valid noncssArabic ng-touched"
+                                placeholder="{{ translate('MOBILE_FRONT_VISUALS_ADDRESS_OR_ZIPCODE') }}"
+                                data-ng-class="{cssArabic: $root.arabic_rtl, noncssArabic: !$root.arabic_rtl}"
+                                data-ng-model="myOrder.curAddress" class="font-mid input-home" id="home-address"
+                                data-ng-click="openMap()" data-ng-readonly="NEW_FEATURES.MULTI_ADDRESS">
+
+                            <div class="map-i"><img src="{{rootTheme}}/img/custom/mapIcon.png"> </div>
+                            <button type="submit" class="btn btn-primary-custom find-res ng-binding"
+                                data-ng-click="findRest()">
+                                {{translate('NEW_MOBILE_HOME_START_FIND_RESTAURANT')}}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Order section finished -->
+
+<!-- Did-you-know section -->
+<div class="section">
+    <div class="card">
+        <h2 class="card-title">{{translate('Where_did_you_find_about_us')}}</h2>
+        <p class="did-you-know-p">
+            {{translate('Where_did_you_find_about_us_text')}}
+        </p>
+    </div>
+</div>
+<!-- Did-you-know section finished -->
+
+<!-- Upload-your-store-to-Deliver section -->
+<div class="long-section">
+    <div class="card">
+        <img src="{{rootTheme}}/img/custom/2.jpg" class="card-img card-img-xs" alt="order image">
+        <div class="custom-card-img-overlay">
+            <h2 class="card-title">{{translate('Upload_your_store_to_Deliver')}}</h2>
+            <p>
+                {{translate('Upload_your_store_to_Deliver_Text')}}
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Upload-your-store-to-Deliver section finished -->
+
+<!-- Download-the-food-you-love section -->
+<div class="section container download-food-section">
+    <div class="card">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="{{rootTheme}}/img/custom/3-1.jpg" class="card-img" alt="order image">
+            </div>
+            <div class="col-md-8">
+                <h2 class="card-title">{{translate('Download_the_food_you_love')}}</h2>
+                <p>
+                    {{translate('Download_the_food_you_love_Text')}}
+                </p>
+                <a href="https://apps.apple.com/us/app/deliveris/id1514216827?ls=1" target="_blank"><img class="imgBtn"
+                        src="{{rootTheme}}/img/download-app-store-.png"></a>
+                <a href="https://play.google.com/store/apps/details?id=com.deliveris.app" target="_blank"><img
+                        class="imgBtn" src="{{rootTheme}}/img/download-google-play.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Download-the-food-you-love section finished -->
+
+<!-- Deliver-to-your-company section -->
+<div class="long-section">
+    <div class="card">
+        <img src="{{rootTheme}}/img/custom/3.jpg" class="card-img card-img-xs" alt="order image">
+        <div class="custom-card-img-overlay">
+            <h2 class="card-title">{{translate('Deliver_to_your_company')}}</h2>
+            <p>
+                {{translate('Deliver_to_your_company_Text')}}
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Deliver-to-your-company section finished -->
+
+<!-- Hungry-for-more-than-food? section -->
+<div class="section">
+    <div class="card">
+        <h2 class="card-title">{{translate('Hungry_for_more_than_food?')}}</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card pt-4">
+                    <img src="{{rootTheme}}/img/custom/4.jpg" class="card-img-top">
+                    <div class="card-body apply-now">
+                        <h3 class="card-title">{{translate('Get_paid_as_a_courier_partner')}}</h3>
+                        <a
+                            href="https://www.deliveris.lt/pages/Become-Deliveris-courier">{{translate('Get_paid_as_a_courier_partner_Text')}}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card pt-4">
+                    <img src="{{rootTheme}}/img/custom/5.jpg" class="card-img-top">
+                    <div class="card-body apply-now">
+                        <h3 class="card-title">{{translate('Serve_more_people')}}</h3>
+                        <a
+                            href="https://www.deliveris.lt/pages/Become-Deliveris-partner">{{translate('Serve_more_people_Text')}}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card pt-4">
+                    <img src="{{rootTheme}}/img/custom/6.jpg" class="card-img-top">
+                    <div class="card-body apply-now">
+                        <h3 class="card-title">{{translate('Enter_a_new_chapter')}}</h3>
+                        <a
+                            href="https://www.deliveris.lt/pages/Become-Deliveris-team">{{translate('Enter_a_new_chapter_Text')}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Hungry-for-more-than-food? section finished -->

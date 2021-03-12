@@ -1,0 +1,146 @@
+ /* Site Fonts */
+ @font-face {
+     font-family: 'varela';
+     src: url('./../fonts/Varela-Regular.ttf');
+ }
+
+ * {
+     font-family: 'varela';
+ }
+
+ /* Public */
+ .card {
+    border: none;
+}
+
+.card-img,
+.card-img-bottom {
+    border-bottom-right-radius: unset;
+    border-bottom-left-radius: unset;
+}
+
+.section {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.orangColor {
+    color: #ff7a2e;
+}
+
+/* Navbar */
+ .nav-lined-item {
+     border-right: 2px solid #ff7a2e;
+     padding-right: 1em;
+ }
+
+ .nav-btn-item {
+     border: 2px solid #ff7a2e;
+     border-radius: 20px !important;
+     padding-right: 1rem !important;
+     padding-left: 1rem !important;
+ }
+
+ .nav-btn-item:hover {
+     color: #fff !important;
+     background-color: #ff7a2e;
+     border-color: #ff7a2e;
+ }
+
+ .nav-icon-item {
+     color: #ff7a2e;
+     font-size: 1.5em;
+ }
+
+ /* Order Section */
+ .custom-order-btn {
+     float: right;
+    color: #fff !important;
+    background-color: black;
+    border-color: black;
+    border-radius: 20px !important;
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+    font-weight: bold;
+}
+
+.custom-order-btn:hover {
+   color: #ff7a2e !important;
+   background-color: #fff;
+   border-color: #ff7a2e;
+}
+
+ /* Upload-your-store-to-Deliver and Deliver-to-your-company Section */
+ .long-section {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 9em;
+}
+
+ .custom-card-img-overlay {
+    position: absolute;
+    right: auto;
+    bottom: -9em;
+    left: auto;
+    padding: 1.25rem;
+    background-color: #fff;
+    background-color: rgba(249, 249, 249, 0.5);
+    align-self: center;
+    text-align: center;
+}
+
+.custom-card-img-overlay>h2 {
+    color: #ff7a2e;
+}
+
+.custom-card-btn {
+    color: #fff !important;
+    background-color: #ff7a2e;
+    border-color: #ff7a2e;
+    border-radius: 20px !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.custom-card-btn:hover {
+   color: #ff7a2e !important;
+   background-color: #fff;
+   border-color: #ff7a2e;
+}
+
+  /* Download-the-food-you-love Section */
+ .imgBtn {
+     width: 10em;
+ }
+
+ /* Footer */
+ footer {
+    background-color: #434949;
+    border-top: 4px solid #ff7a2e;
+}
+
+.text-left {
+    text-align: left;
+    color: #fff;
+}
+
+.list-unstyled>li>a {
+    color: #fff !important;
+}
+
+li::before {
+    content: ">";
+    font-size: small;
+    padding-right: 8px;
+    color: #fff;
+}
+
+.imgBtnSmall {
+    width: 7em;
+}
+
